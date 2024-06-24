@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
+
 
 
 const container = (delay) => ({
@@ -35,7 +37,16 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Full stack Devloper
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("Hi Nice to See you")
+                    .pauseFor(2000)
+                    .deleteAll()
+                    .typeString("I am a Full Stack Devloper")
+                    .start();
+                }}
+              />
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -49,7 +60,13 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <motion.img initial={{opacity:0, x:100}} animate={{opacity:1,x:0}} transition={{duration:1 , delay:1.2}} src={profilePic} alt="" />
+            <motion.img
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilePic}
+              alt=""
+            />
           </div>
         </div>
       </div>
