@@ -10,16 +10,19 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a href="https://github.com/arham-git-bot">
+          {" "}
+          <FaGithub />
+        </a>
         <a href="https://www.linkedin.com/in/arham-sangoi-6b3a59261/">
           {" "}
           <FaLinkedin />
         </a>
+
         <a href="https://x.com/Arham80625830?t=az-MER1GzVto9ZfAjaRgeg&s=09">
           {" "}
-          <FaGithub />
+          <FaSquareXTwitter />
         </a>
-
-        <FaSquareXTwitter />
       </div>
     </nav>
   );
