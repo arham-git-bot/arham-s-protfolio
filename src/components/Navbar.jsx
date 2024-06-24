@@ -25,7 +25,7 @@ const Navbar = () => {
           {" "}
           <FaSquareXTwitter />
         </a>
-        <a href="9867982398">
+        <a href="tel:9867982398" >
           {" "}
           <PiPhoneCallLight />
         </a>
