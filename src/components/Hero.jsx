@@ -27,7 +27,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-14 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Arham Sangoi
             </motion.h1>
@@ -35,7 +35,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent sm:text-center text-center"
             >
               <Typewriter
                 onInit={(typewriter) => {
