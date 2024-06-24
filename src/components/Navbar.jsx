@@ -14,13 +14,12 @@ const Navbar = () => {
           {" "}
           <FaLinkedin />
         </a>
-        <a href="https://x.com/home">
+        <a href="https://x.com/Arham80625830?t=az-MER1GzVto9ZfAjaRgeg&s=09">
           {" "}
           <FaGithub />
         </a>
 
         <FaSquareXTwitter />
-
       </div>
     </nav>
   );
