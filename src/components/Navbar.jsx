@@ -2,6 +2,8 @@ import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { PiPhoneCallLight } from "react-icons/pi";
+
 
 const Navbar = () => {
   return (
@@ -22,6 +24,10 @@ const Navbar = () => {
         <a href="https://x.com/Arham80625830?t=az-MER1GzVto9ZfAjaRgeg&s=09">
           {" "}
           <FaSquareXTwitter />
+        </a>
+        <a href="9867982398">
+          {" "}
+          <PiPhoneCallLight />
         </a>
       </div>
     </nav>
