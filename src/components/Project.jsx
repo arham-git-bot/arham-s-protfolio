@@ -15,16 +15,18 @@ const Project = () => {
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
-              <motion.img
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                src={project.image}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
-                alt={project.title}
-              />
+              <a href="https://iphone-clone-phi.vercel.app/">
+                <motion.img
+                  whileInView={{ opacity: 1, y: 0 }}
+                  initial={{ opacity: 0, y: -100 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  className="mb-6 rounded"
+                  alt={project.title}
+                />
+              </a>
             </div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
